@@ -1,1 +1,1 @@
-# SymbolClassifier
+# LetterClassifier
