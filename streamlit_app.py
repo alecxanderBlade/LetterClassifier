@@ -14,8 +14,8 @@ from sklearn.metrics import classification_report
 # Define the Streamlit app
 def app():
     
-    st.title('Symbol Classification')
-    st.subheader('by Louie F. Cervantes M.Eng., WVSU College of ICT')
+    st.title('Letter Classification')
+    st.subheader('by Alecxander Jamille Andaya, WVSU College of ICT')
     st.write('The naive bayes classifierperforms well on overlapped data.')
 
     st.write('Dataset description:')
@@ -25,7 +25,7 @@ def app():
         Target variable: This could be a single categorical variable representing the class of the image (e.g., digit recognition, traffic sign classification).
         Potential Applications:"""
     st.write(text)
-    st.write('Digit recognition: Identifying handwritten digits from 0-9.')
+    st.write('Digit recognition: Identifying handwritten letters (A, U, I, & C).')
     st.write('Traffic sign classification: Classifying different types of traffic signs.')
     st.write('Character recognition: Recognizing characters from different alphabets.')
     st.write("""Simple image classification: Classifying simple images into categories 
