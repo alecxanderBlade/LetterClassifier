@@ -27,7 +27,6 @@ def app():
     st.write(text)
     st.write('Letter recognition: Identifying handwritten letters (A, U, I, & C).')
     st.write('Traffic sign classification: Classifying different types of traffic signs.')
-    st.write('Character recognition: Recognizing characters from different alphabets.')
     st.write("""Simple image classification: Classifying simple images into categories 
              like animal/non-animal, vehicle/non-vehicle, etc.""")
 
