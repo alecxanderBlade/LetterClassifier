@@ -25,7 +25,7 @@ def app():
         Target variable: This could be a single categorical variable representing the class of the image (e.g., digit recognition, traffic sign classification).
         Potential Applications:"""
     st.write(text)
-    st.write('Digit recognition: Identifying handwritten letters (A, U, I, & C).')
+    st.write('Letter recognition: Identifying handwritten letters (A, U, I, & C).')
     st.write('Traffic sign classification: Classifying different types of traffic signs.')
     st.write('Character recognition: Recognizing characters from different alphabets.')
     st.write("""Simple image classification: Classifying simple images into categories 
